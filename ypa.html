@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <style>
+            body{
+                font-family: "Arial", Times, Sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>YPA 測試頁</h4>
+        <div class='test'></div>
+
+        <script>
+            var script = document.createElement('script')
+            script.async = true
+            script.type = 'text/javascript'
+            script.src = 'https://power.adhacker.online/test/ypa_expand/cs_main/bt_ypa.js?a='+Math.floor(Date.now() / 1000)
+          
+            var ins = document.createElement('ins')
+            ins.className = 'bt_ypa'
+            ins.setAttribute('data-token', '062ff441992eb6d9df2a9bc6eda693bf')
+            ins.setAttribute('data-expand-ratio', '40')
+            ins.setAttribute('data-source-tag', '')
+            ins.setAttribute('data-type-tag', '')
+          
+            ins.setAttribute('data-label', 'bottomfloat')
+            ins.setAttribute('data-style', 'ypa_float')
+            ins.setAttribute('data-ssp', 'ypa')
+            ins.setAttribute('style', 'display: inline-block; width: 100%; z-index:999999;')
+            ins.setAttribute('data-clickMacro', 'clickMacro')
+            ins.setAttribute('data-liId', 'liId')
+            ins.setAttribute('data-cId', 'cId')
+            ins.setAttribute('data-csId', 'csId')
+          
+            document.body.appendChild(script)
+            document.body.appendChild(ins)
+          
+          
+          
+            var header = document.querySelector('.test')
+            if(header){
+              var div = document.createElement('div')
+              script = document.createElement('script')
+              script.async = true
+              script.type = 'text/javascript'
+              script.src = 'https://power.adhacker.online/test/ypa_expand/cs_main/bt_ypa.js?a='+Math.floor(Date.now() / 1000)
+          
+              ins = document.createElement('ins')
+              ins.className = 'bt_ypa'
+              ins.setAttribute('data-token', '062ff441992eb6d9df2a9bc6eda693bf')
+              ins.setAttribute('data-expand-ratio', '70')
+              ins.setAttribute('data-source-tag', '')
+              ins.setAttribute('data-type-tag', '')
+          
+              ins.setAttribute('data-label', '2ndpage')
+              ins.setAttribute('data-style', 'ypa_tags')
+              ins.setAttribute('data-ssp', 'ypa')
+              ins.setAttribute('style', 'display: inline-block; width: 100%; z-index:999999;')
+              ins.setAttribute('data-clickMacro', 'clickMacro')
+              ins.setAttribute('data-liId', 'liId')
+              ins.setAttribute('data-cId', 'cId')
+              ins.setAttribute('data-csId', 'csId')
+          
+              ins.setAttribute('data-max-keyword-length', '10')
+              ins.setAttribute('data-background-color', '#ffffff')
+              ins.setAttribute('data-text-color', '#51c8fa')
+              ins.setAttribute('data-border-color', '#51c8fa')
+              
+              div.appendChild(script)
+              div.appendChild(ins)
+              div.style.padding = '20px'
+              div.style.textAlign = 'center'
+              header.appendChild(div)
+            }
+          </script>
+    </body>
+</html>
